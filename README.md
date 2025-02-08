@@ -26,41 +26,6 @@ Call-Center-Operations-Report/
 │── README.md                 # Project overview and setup guide
 │── .gitignore                # Files to be ignored by Git
 ```
-## **📂 Project Structure**
-
-```
-SecuriScan/
-├── backend/             # Python-based security scanner API
-│   ├── app/
-│   │   ├── models/      # Database models
-│   │   ├── routes/      # API endpoints
-│   │   ├── utils/       # Security analysis scripts
-│   │   ├── app.py       # Main application file
-│   ├── tests/           # Automated testing for backend APIs
-│   ├── requirements.txt # Python dependencies
-│   ├── Dockerfile       # Backend containerization
-│   └── ...
-│
-├── frontend/            # Next.js frontend for UI
-│   ├── src/
-│   │   ├── components/  # Reusable UI elements
-│   │   ├── pages/       # Next.js pages for routing
-│   │   ├── styles/      # CSS & Tailwind configuration
-│   │   ├── api.ts       # API service layer
-│   ├── package.json     # Frontend dependencies
-│   ├── Dockerfile       # Frontend containerization
-│   └── ...
-│
-├── docs/                # Documentation & API specifications
-│   ├── architecture.md  # System design documentation
-│   ├── api-specifications.md # API details
-│   ├── setup.md         # Installation & setup guide
-│   └── README.md        # Project introduction (this file)
-│
-├── docker-compose.yml   # Configuration for multi-service deployment
-├── .gitignore           # Ignore unnecessary files in Git
-└── README.md            # Project overview
-```
 
 ---
 
